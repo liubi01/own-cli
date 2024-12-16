@@ -1,8 +1,16 @@
 {
   "name": "own-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "The node project is cli which is used for downloading the one of templates from github's organization and select the tag.",
   "main": "index.js",
+  "repository": "https://github.com/liubi01/own-cli",
+  "author": "kevin.cao",
+  "files": [],
+  "keywords": [
+    "cli",
+    "commander"
+  ],
+  "license": "ISC",
   "scripts": {
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +18,6 @@
   "bin": {
     "own-cli": "./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
